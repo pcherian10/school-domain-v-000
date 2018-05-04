@@ -12,7 +12,7 @@ class School
     end
 
     def grade (student_grade)
-      @roster.values_at(student_grade).flatten
+      @roster[student_grade]
     end
 
     def sort
